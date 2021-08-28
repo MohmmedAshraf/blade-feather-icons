@@ -1,10 +1,10 @@
 # Blade Feather Icons
 
-<a href="https://packagist.org/packages/brunocfalcao/blade-feather-icons">
-    <img src="https://poser.pugx.org/brunocfalcao/blade-feather-icons/v/stable.svg" alt="Latest Stable Version">
+<a href="https://packagist.org/packages/outhebox/blade-feather-icons">
+    <img src="https://poser.pugx.org/outhebox/blade-feather-icons/v/stable.svg" alt="Latest Stable Version">
 </a>
-<a href="https://packagist.org/packages/brunocfalcao/blade-feather-icons">
-    <img src="https://poser.pugx.org/brunocfalcao/blade-feather-icons/d/total.svg" alt="Total Downloads">
+<a href="https://packagist.org/packages/outhebox/blade-feather-icons">
+    <img src="https://poser.pugx.org/outhebox/blade-feather-icons/d/total.svg" alt="Total Downloads">
 </a>
 
 A package to easily make use of [Feather Icons](https://github.com/feathericons/feather) in your Laravel Blade views.
@@ -19,7 +19,7 @@ For a full list of available icons see [the SVG directory](resources/svg) or pre
 ## Installation
 
 ```bash
-composer require brunocfalcao/blade-feather-icons
+composer require outhebox/blade-feather-icons
 ```
 
 ## Usage
@@ -27,19 +27,19 @@ composer require brunocfalcao/blade-feather-icons
 Icons can be used a self-closing Blade components which will be compiled to SVG icons:
 
 ```blade
-<x-feathericon-alert-triangle/>
+<x-feather-alert-triangle/>
 ```
 
 You can also pass classes to your icon components:
 
 ```blade
-<x-feathericon-alert-triangle class="text-primary"/>
+<x-feather-alert-triangle class="text-primary"/>
 ```
 
 And even use inline styles:
 
 ```blade
-<x-feathericon-alert-triangle style="color: #555"/>
+<x-feather-alert-triangle style="color: #555"/>
 ```
 
 ### Raw SVG Icons
@@ -72,16 +72,12 @@ Then copy this line to your webpack.mix file
 
 Blade Feather Icons uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/blade-ui-kit/blade-icons) for additional functionality.
 
-## Changelog
+## Credits
 
-Check out the [CHANGELOG](CHANGELOG.md) in this repository for all the recent changes.
-
-## Maintainers
-
-Blade Feather Icons is developed and maintained by [Bruno Falcao](https://github.com/brunocfalcao).
-You can follow me on [Twitter](https://twitter.com/brunocfalcao).
-
-Blade Icons is developed and maintained by [Dries Vints](https://driesvints.com).
+- [Dries Vints](https://driesvints.com)
+- [Bruno Falcão](https://github.com/brunocfalcao)
+- [Mohamed Ashraf](https://github.com/MohmmedAshraf)
+- [All contributors](https://github.com/MohmmedAshraf/blade-feather-icons/contributors)
 
 ## License
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Brunocfalcao\BladeFeatherIcons;
+namespace OutheBox\BladeFeatherIcons;
 
 use BladeUI\Icons\Factory;
 use Illuminate\Support\ServiceProvider;
@@ -12,7 +12,7 @@ final class BladeFeatherIconsServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory) {
             $factory->add('feather-icons', [
                 'path' => __DIR__ . '/../resources/svg',
-                'prefix' => 'feathericon',
+                'prefix' => 'feather',
             ]);
         });
     }

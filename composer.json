@@ -1,15 +1,23 @@
 {
-    "name": "brunocfalcao/blade-feather-icons",
+    "name": "outhebox/blade-feather-icons",
     "description": "A package to easily make use of Feather Icons in your Laravel Blade views.",
     "keywords": ["Blade", "Feather Icons", "Laravel"],
-    "homepage": "https://github.com/brunocfalcao/blade-feather-icons",
+    "homepage": "https://github.com/MohmmedAshraf/blade-feather-icons",
     "license": "MIT",
-    "authors": [{
-        "name": "Bruno Falcao",
-        "email": "bruno.c.falcao@brunofalcao.me",
-        "homepage": "https://www.laraning.com",
-        "role": "Developer"
-    }],
+    "authors": [
+        {
+            "name": "Bruno Falcao",
+            "email": "bruno.c.falcao@brunofalcao.me",
+            "homepage": "https://www.laraning.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Mohamed Ashraf",
+            "email": "cupo.ashraf@gmail.com",
+            "homepage": "https://github.com/MohmmedAshraf",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": "^7.4|^8.0",
         "blade-ui-kit/blade-icons": "^1.0",
@@ -21,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Brunocfalcao\\BladeFeatherIcons\\": "src"
+            "OutheBox\\BladeFeatherIcons\\": "src"
         }
     },
     "autoload-dev": {
@@ -32,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Brunocfalcao\\BladeFeatherIcons\\BladeFeatherIconsServiceProvider"
+                "OutheBox\\BladeFeatherIcons\\BladeFeatherIconsServiceProvider"
             ]
         }
     },
