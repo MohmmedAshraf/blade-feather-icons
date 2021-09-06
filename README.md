@@ -60,12 +60,12 @@ Then use them in your views like:
 
 Install the feather icons npm library
 ```
-    npm install feather-icons --save
+npm install feather-icons --save
 ```
 
 Then copy this line to your webpack.mix file
 ```
-    mix.copy('node_modules/feather-icons/dist/icons', 'public/vendor/feather-icons');
+mix.copy('node_modules/feather-icons/dist/icons', 'public/vendor/feather-icons');
 ```
 
 ### Blade Icons
